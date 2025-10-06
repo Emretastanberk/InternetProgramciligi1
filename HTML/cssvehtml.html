@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Css Ve Html</title>
+    <style>
+        .form-container {
+            max-width: 400px;     
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .button-group {
+            margin-top: 10px;
+        }
+        .gonder {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        .temizle {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input{
+            border-bottom: 2px solid red;
+            background-color: yellow;
+        }
+        input[type="text"]:focus, input[type="email"]:focus {
+            background-color: #4CAF50;
+            outline: none;
+        }
+        input[type="password"]:focus {
+            background-color: #f44336;
+            outline: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Emre</h2>
+         <form action="#" method="post">
+        <label>Ad:</label>
+        <input type="text"><br><br>
+
+        <label>Soyad:</label>
+        <input type="text"><br><br>
+
+        <label>E-posta:</label>
+        <input type="email"><br><br>
+
+        <label>Şifre:</label>
+        <input type="password"><br><br>
+        <div class="button-group">
+            <button class="gonder" type="submit">Gönder</button>
+            <button class="temizle" type="reset">Temizle</button>
+    </div>
+
+
+        
+
+    </form>
+    
+</body>
+</html>

@@ -27,6 +27,21 @@
             padding: 8px;
             text-align: left;
         }
+        .row0 { background-color: rgb(89, 255, 144); }
+        .row1 { background-color: white; }
+        .row2 { background-color:red; }
+        .row3 { background-color: white; }
+        .row4 { background-color: red; }
+
+        .veri_baslik {
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px;
+            margin: 0;
+            &:hover {
+                background-color: yellow;
+            }
+        }
 
     </style>
 </head>
@@ -54,23 +69,36 @@
     </form>
     <div class="table-container">
         <table>
-        <tr >
+            <h1 class="veri_baslik">Form Verileri</h1>
+        <tr class="row0">
             <th>Ad</th>
             <th>Soyad</th>
             <th>E-posta</th>
             <th>Şifre</th>
         </tr>
-        <tr>
+        <tr class="row1">
             <td>Ali</td>
             <td>Veli</td>
             <td>ali@example.com</td>
             <td>123456</td>
         </tr>
-        <tr>
+        <tr class="row2">
             <td>Ayşe</td>
             <td>Fatma</td>
             <td>ayse@example.com</td>
             <td>654321</td>
+        </tr>
+        <tr class="row3">
+            <td>Mehmet</td>
+            <td>Can</td>
+            <td>mehmet@example.com</td>
+            <td>789012</td>
+        </tr>
+        <tr class="row4">
+            <td>Elif</td>
+            <td>Yılmaz</td>
+            <td>elif@example.com</td>
+            <td>345678</td>
         </tr>
     </table>
     </div>
