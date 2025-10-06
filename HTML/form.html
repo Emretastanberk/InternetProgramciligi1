@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .table-container {
+            max-width: 600px;
+            margin: 20px auto;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Form</h2>
-    <form action="#" method="post">
+    <div class="form-container">
+        <h2>Form</h2>
+         <form action="#" method="post">
         <label>Ad:</label>
         <input type="text"><br><br>
 
@@ -18,12 +45,38 @@
 
         <label>Şifre:</label>
         <input type="password"><br><br>
-
-        
         <button type="submit"><a target="_blank"   href="file:///C:/Users/tasta/Desktop/25-26Dersler/InternetProgramc-l-g-/HTML/index.html">GİRİŞ</a></button>
+    </div>
+
 
         <br><img src="mazaka.png" alt="mazaka" width="200" height="200"><br><br>
 
     </form>
+    <div class="table-container">
+        <table>
+        <tr >
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>E-posta</th>
+            <th>Şifre</th>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>Veli</td>
+            <td>ali@example.com</td>
+            <td>123456</td>
+        </tr>
+        <tr>
+            <td>Ayşe</td>
+            <td>Fatma</td>
+            <td>ayse@example.com</td>
+            <td>654321</td>
+        </tr>
+    </table>
+    </div>
+    
+
+    <p style="border: 10px solid black; background-color:green;">emre</p>
+
 </body>
 </html>
